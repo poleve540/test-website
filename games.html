@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
+</head>
+<body>
+
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+<script>
+  $(document).ready( function () {
+    $('#gamingtable').DataTable();
+  });
+</script>
+<h1>Here I log games I have played or that I am planning to play</h1>
+<table id="gamingtable" class="compact" style="width:100%">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Status</th>
+      <th>Platform</th>
+      <th>Tags</th>
+      <th>Series</th>  
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hypnospace Outlaw</td>
+      <td>Played</td>
+      <td>PC</td>
+      <td>Point and Click</td>
+      <td>Hypnospace Outlaw</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
